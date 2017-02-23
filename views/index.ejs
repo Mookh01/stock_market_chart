@@ -1,0 +1,21 @@
+<% layout('/layout') %>
+<% block('title', 'Stock Market Chart')%>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js" defer></script>
+<script src="/socket.io/socket.io.js" defer></script>
+<script src="/script.js" defer></script>
+<div id="stocks">
+    <ul></ul>
+    <div class="form-group">
+        <form >
+            <input class="form-control stock-code" placeholder="Stock code">
+    <div class="wrapper">
+            <button class="btn btn-success">Submit</button>
+            </div>
+        </form>
+    </div>
+    <span class="checkerror"></span>
+    <br>
+</div>
+
+<div id="line_chart"></div>

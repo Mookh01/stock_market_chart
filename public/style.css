@@ -1,0 +1,30 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: lightgrey;
+}
+
+button {
+    background-color: #e6c200;
+    margin: 10px 15px 15px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    display: inline-block;
+    width: 50px;
+    height: 55px;
+    margin: 15px 5px 5px 0;
+    padding: 10px;
+    position: relative;
+}
+
+.wrapper {
+    text-align: center;
+}
